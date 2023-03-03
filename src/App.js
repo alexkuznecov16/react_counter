@@ -1,5 +1,5 @@
-import React from 'react';
-import './main.scss';
+import React from 'react'; // UseState
+import './main.scss'; // Styles
 
 function App() {
 
@@ -8,12 +8,12 @@ function App() {
 
   //* По клику функция getCount прибавляет 1 к числу
   const onClickPlus = () => {
-    getCount(count+1);
+    getCount(count + 1);
   }
 
   //* По клику функция getCount отнимает 1 у числа
   const onClickMinus = () => {
-    getCount(count-1);
+    getCount(count - 1);
   }
 
   //* По клику функция getCount сбрасывается до нуля
